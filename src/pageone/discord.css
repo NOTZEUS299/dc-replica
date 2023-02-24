@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Lalezar&family=Open+Sans:wght@300&family=Paytone+One&family=Roboto:wght@100&family=Sigmar+One&display=swap');
+.prtone {
+    background-image: url(imgone.jpg);
+    background-size: cover;
+}
+.nvbr {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.mnlg {
+    display: inline-flex;
+    margin-right: 210px;
+    color: white;
+    cursor: pointer;
+}
+#lgone {
+    font-size: 33px;
+    margin-top: 12px;
+}
+.hdhone {
+    text-decoration: none;
+}
+#headone h1{
+    font-weight: 900;
+    font-size: 22px;
+    margin-left: 6px;
+} 
+.nvlist {
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.nvlist:hover{
+    text-decoration: underline;
+    text-shadow: 2px 2px 15px black;
+}
+.nvlst li{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 20px;
+}
+.lgnbtn{
+    text-decoration: none;
+    color: black;
+}
+.lgn button {
+    border: 1px solid white;
+    border-radius: 9999px;
+    background-color: white;
+    font-weight: 100;
+    padding: 12px 15px;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 244px;
+    margin-right: 26px;
+    transition: 0.3s;
+}
+.lgn:hover button{
+    box-shadow: 3px 7px 10px #1a1919;
+    cursor: pointer;
+}
+.lgnbtn:hover{
+    color: #5865f2;
+}
+.cntntone {
+    padding: 70px 0px;
+}
+.cntntone h1 {
+    font-family: 'Candal', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 95%;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+}
+.cntntone p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+    font-size: 20px;
+    width: 800px;
+    letter-spacing: 0.1px;
+    margin: 50px auto 40px;
+}
+.dbbtns{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.dwnldbtn{
+    margin-right: 12px;
+    border: 1px solid white;
+    padding: 15px 25px;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 9999px;
+    transition: 0.5s;
+}
+.dwnldicn{
+    margin-right: 05px;
+    font-size: 20px;
+}
+.dwnldbtn:hover{
+    color: rgba(0, 0, 0, 0.733);
+    box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.747);
+    cursor: pointer;
+}
+.brwsrbtn{
+    margin-left: 12px;
+    border: 1px solid #23272a;
+    color: white;
+    padding: 15px 25px;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 9999px;
+    background-color: #23272a;
+    transition: 0.5s;
+}
+.brwsrbtn:hover{
+    background-color: #2d2f31;
+    box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.747);
+    cursor: pointer;
+}
+.tbhdwtlstdc{
+    display: none;
+}
+@media (max-width:912px){
+    *{box-sizing: border-box;}
+    .prtone {
+        background-image: url(imgtwo.jpg);
+        padding-bottom: 900px;
+    }
+    .nvbr {
+        display: none;
+        text-decoration: none;
+        position: relative;
+        z-index: 1;
+    }
+    .tbhdwtlstdc{
+        display: block;
+    }
+    .tbhddc{
+        padding: 10px 0px 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        z-index: 0;
+    }
+    .tbmnlg {
+        display: inline-flex;
+        margin-left: 20px;
+        color: white;
+    }
+    #tblgone {
+        font-size: 33px;
+        margin-top: 12px;
+    }
+    .tbhdhone {
+        text-decoration: none;
+    }
+    #tbheadone h1{
+        font-weight: 900;
+        font-size: 22px;
+        margin-left: 6px;
+    }
+    .ltsee{
+        display: flex;
+        justify-content: right;
+        margin-right: 20px;
+    }
+    .tbltlgnbtn{
+        margin-top: 20px;
+    }
+    .tblgnbtn{
+        text-decoration: none;
+        color: black;
+        background-color: #fff;
+        border-radius: 999px;
+        padding: 10px 15px;
+    }
+    .tbdrplist{
+        margin-top: 10px;
+    }
+    .tbdrplisticn{
+        color: white;
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    #tbnvlst{
+        list-style-type: none;
+        background-color: #050308;
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    .tbnvlist{
+        display: block;
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+        margin: 5px 0px 5px 0px;
+        padding-left: 20px;
+    }   
+    .tbnvlist:hover {
+        background-color: #292927;
+    }
+    .cntntone{
+        margin: 0px;
+        padding: 0px;
+    }
+    .cntntone h1{
+        text-align: left;
+        font-size: 100px;
+        width: 95%;
+        margin-left: 30px;
+        text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+    }
+    .cntntone p{
+        text-align: left;
+        font-size: 25px;
+        font-weight: 600;
+        width: 95%;
+        margin-left: 30px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .dbbtns{
+        display: block;
+    }
+    .dwnldbtn{
+        display: block;
+        margin-left: 30px;
+    }
+    .brwsrbtn{
+        display: block;
+        margin: 20px 0px 0px 30px;
+    }
+}
+@media (max-width:600px) {
+    .prtone {
+        background-image: url(imgthree.jpg);
+        background-size: cover;
+        padding-bottom: 100%;
+    }
+    .nvbr {
+        display: none;
+        text-decoration: none;
+        position: relative;
+        z-index: 1;
+    }
+    .tbhdwtlstdc{
+        display: block;
+    }
+    .tbhddc{
+        padding: 10px 0px 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        z-index: 0;
+    }
+    .tbmnlg {
+        display: inline-flex;
+        margin-left: 10px;
+        color: white;
+    }
+    #tblgone {
+        font-size: 33px;
+        margin-top: 12px;
+    }
+    .tbhdhone {
+        text-decoration: none;
+    }
+    #tbheadone h1{
+        font-weight: 900;
+        font-size: 22px;
+        margin-left: 6px;
+    }
+    .ltsee{
+        display: flex;
+        justify-content: right;
+    }
+    .tbltlgnbtn{
+        margin-top: 20px;
+    }
+    .tblgnbtn{
+        text-decoration: none;
+        color: black;
+        background-color: #fff;
+        border-radius: 999px;
+        padding: 10px 15px;
+    }
+    .tbdrplist{
+        margin-top: 10px;
+    }
+    .tbdrplisticn{
+        color: white;
+        font-size: 35px;
+        margin-left: 15px;
+        float: right;
+    }
+    #tbnvlst{
+        list-style-type: none;
+        background-color: #e8c2b1;
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    .tbnvlist{
+        display: block;
+        color: #333333;
+        font-weight: 600;
+        font-size: 40px;
+        padding: 5px 0px 5px 10px;
+        text-decoration: none;
+    }   
+    .tbnvlist:hover {
+        background-color: #ae7f6d;
+        color: white;
+    }
+    .cntntone h1{
+        font-size: 45px;
+        text-align: left;
+        width: 90%;
+        margin:40px 0px 0px 20px;
+        text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.527);
+    }
+    .cntntone p{
+        text-align: left;
+        width: 90%;
+        margin:20px 0px 0px 20px;
+        text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.527);
+    }
+    .dbbtns{
+        display: block;
+    }
+    .dwnldbtn{
+        display: block;
+        margin:20px 0px 0px 30px;
+    }
+    .brwsrbtn{
+        display: block;
+        margin: 20px 0px 0px 30px;
+    }
+}

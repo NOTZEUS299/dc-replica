@@ -1,0 +1,548 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgsgnupimg {
+    background-image: url(bgsignupone2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 11.36%;
+    animation: bgone 240s linear infinite;
+}
+
+@keyframes bgone {
+    0% {
+        background-position: top;
+    }
+
+    50% {
+        background-position: bottom;
+    }
+
+    100% {
+        background-position: top;
+    }
+}
+
+.sgncntnter {
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(signupbg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px black,
+        0px 0px 50px black,
+        0px 0px 500px black;
+    width: 90%;
+    margin: 0 auto;
+    animation: bgtwo 240s linear infinite;
+}
+
+@keyframes bgtwo {
+    0% {
+        background-position: top;
+    }
+
+    50% {
+        background-position: bottom;
+    }
+
+    100% {
+        background-position: top;
+    }
+}
+
+.sgnsubcntnter {
+    width: 90%;
+}
+
+.sgncntntflxng {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sgncntntflxnglft {
+    width: 100%;
+    padding-right: 1%;
+    border-right: 2px solid white;
+}
+
+.sgncntntflxnglftmdl {
+    width: 100%;
+    padding-left: 2%;
+    border-right: 2px solid white;
+}
+
+.imgssignup {
+    width: 100%;
+    padding-left: 2%;
+}
+
+.sgninhd h1,
+.sgninhd p {
+    color: white;
+    margin: 5% 0px 0px;
+}
+
+.sgninhd p {
+    margin: 1% 0px 3%;
+    font-weight: 500;
+}
+
+.namefield label {
+    color: white;
+    font-weight: 600;
+}
+
+.namefield input {
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 0 20% 1% 0;
+    color: white;
+    font-weight: 600;
+}
+
+.namefield input:focus {
+    outline: 0;
+}
+
+.genderfield {
+    margin: 7% 0 7%;
+}
+
+.genderfield span {
+    color: white;
+    font-weight: 600;
+}
+
+.genderfield input {
+    color: white;
+    background-color: transparent;
+}
+
+.genderfield input:focus {
+    color: white;
+    background-color: transparent;
+}
+
+.genderfield label {
+    color: white;
+    font-weight: 500;
+    margin-right: 2%;
+}
+
+.dobfield {
+    margin-top: 5%;
+}
+
+.dobfield label {
+    color: white;
+    font-weight: 600;
+}
+
+.dobfield input {
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    display: block;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 0 10% 1% 0;
+}
+
+.dobfield input:focus {
+    outline: 0;
+}
+
+.emailfield {
+    margin-top: 10%;
+}
+
+.emailfield label {
+    color: white;
+    font-weight: 600;
+}
+
+.emailfield input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 0 25% 1% 0;
+    color: white;
+    font-weight: 600;
+}
+
+.emailfield input:focus {
+    outline: 0;
+}
+
+.reemailfield {
+    margin-top: 5%;
+}
+
+.reemailfield label {
+    color: white;
+    font-weight: 600;
+}
+
+.reemailfield input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 0 25% 1% 0;
+    color: white;
+    font-weight: 600;
+}
+
+.reemailfield input:focus {
+    outline: 0;
+}
+
+.passwordfield {
+    margin-top: 5%;
+}
+
+.passwordfield label {
+    color: white;
+    font-weight: 600;
+}
+
+.passwordfield input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 0 25% 1% 0;
+    color: white;
+    font-weight: 600;
+}
+
+.passwordfield input:focus {
+    outline: 0;
+}
+
+.repasswordfield {
+    margin-top: 5%;
+}
+
+.repasswordfield label {
+    color: white;
+    font-weight: 600;
+}
+
+.repasswordfield input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 0 25% 1% 0;
+    color: white;
+    font-weight: 600;
+}
+
+.repasswordfield input:focus {
+    outline: 0;
+}
+
+.reasonfield {
+    margin-top: 5%;
+}
+
+.reasonfield label {
+    color: white;
+    font-weight: 600;
+}
+
+.reasonfield select {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white !important;
+    padding: 0 60% 1% 0;
+    color: white;
+    font-weight: 600;
+}
+
+.reasonfield option {
+    background-color: #1e252e;
+    border: 0 !important;
+    padding: 0 25% 1% 0;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px black;
+}
+
+.reasonfield select:focus {
+    outline: 0;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.namefielderror label {
+    color: red;
+    font-weight: 600;
+}
+
+.namefielderror input {
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid red;
+    animation: shake 0.5s linear 1 forwards;
+    padding: 0 25% 1% 0;
+    color: white;
+    font-weight: 600;
+}
+
+.namefielderror input:focus {
+    outline: 0;
+}
+
+.genderfielderror {
+    margin: 7% 0 7%;
+}
+
+.genderfielderror span {
+    color: red;
+    font-weight: 600;
+}
+
+.genderfielderror input {
+    color: red;
+    background-color: transparent;
+    animation: shake 0.5s linear 1 forwards;
+}
+
+.genderfielderror input:focus {
+    color: red;
+    animation: shake 0.5s linear 1 forwards;
+    background-color: transparent;
+}
+
+.genderfielderror label {
+    color: red;
+    animation: shake 0.5s linear 1 forwards;
+    font-weight: 500;
+    margin-right: 2%;
+}
+
+.dobfielderror {
+    margin-top: 5%;
+}
+
+.dobfielderror label {
+    color: red;
+    font-weight: 600;
+}
+
+.dobfielderror input {
+    background-color: transparent;
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+    display: block;
+    border: 0;
+    border-bottom: 2px solid red;
+    animation: shake 0.5s linear 1 forwards;
+    padding: 0 10% 1% 0;
+}
+
+.dobfielderror input:focus {
+    outline: 0;
+}
+
+.emailfielderror {
+    margin-top: 10%;
+}
+
+.emailfielderror label {
+    color: red;
+    font-weight: 600;
+}
+
+.emailfielderror input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid red;
+    animation: shake 0.5s linear 1 forwards;
+    padding: 0 25% 1% 0;
+    color: red;
+    font-weight: 600;
+}
+
+.emailfielderror input:focus {
+    outline: 0;
+}
+
+.reemailfielderror {
+    margin-top: 5%;
+}
+
+.reemailfielderror label {
+    color: red;
+    font-weight: 600;
+}
+
+.reemailfielderror input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid red;
+    animation: shake 0.5s linear 1 forwards;
+    padding: 0 25% 1% 0;
+    color: red;
+    font-weight: 600;
+}
+
+.reemailfielderror input:focus {
+    outline: 0;
+}
+
+.passwordfielderror {
+    margin-top: 5%;
+}
+
+.passwordfielderror label {
+    color: red;
+    font-weight: 600;
+}
+
+.passwordfielderror input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid red;
+    animation: shake 0.5s linear 1 forwards;
+    padding: 0 25% 1% 0;
+    color: red;
+    font-weight: 600;
+}
+
+.passwordfielderror input:focus {
+    outline: 0;
+}
+
+.repasswordfielderror {
+    margin-top: 5%;
+}
+
+.repasswordfielderror label {
+    color: red;
+    font-weight: 600;
+}
+
+.repasswordfielderror input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid red;
+    animation: shake 0.5s linear 1 forwards;
+    padding: 0 25% 1% 0;
+    color: red;
+    font-weight: 600;
+}
+
+.repasswordfielderror input:focus {
+    outline: 0;
+}
+
+.reasonfielderror {
+    margin-top: 5%;
+}
+
+.reasonfielderror label {
+    color: red;
+    font-weight: 600;
+}
+
+.reasonfielderror select {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid red !important;
+    padding: 0 60% 1% 0;
+    color: red;
+    font-weight: 600;
+    animation: shake 0.5s linear 1 forwards;
+}
+
+.reasonfielderror option {
+    background-color: #1e252e;
+    border: 0 !important;
+    padding: 0 25% 1% 0;
+    color: red;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px black;
+}
+
+.reasonfielderror select:focus {
+    outline: 0;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0px);
+    }
+
+    10% {
+        transform: translateY(2px);
+    }
+
+    20% {
+        transform: translateY(0px);
+    }
+
+    30% {
+        transform: translateY(2px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(2px);
+    }
+
+    60% {
+        transform: translateY(0px);
+    }
+
+    70% {
+        transform: translateY(2px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+
+    90% {
+        transform: translateY(2px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.clrsbmitbtnsignup {
+    margin: 5% 0;
+    display: flex;
+}
+
+.clrsbmitbtnsignup button {
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px 20px 0 0px;
+    transition: 0.2s;
+}
+
+.clrsbmitbtnsignup button:hover {
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+}

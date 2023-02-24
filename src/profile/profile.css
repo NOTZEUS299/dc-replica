@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.displaybckgrnd {
+    position: fixed;
+    background-color: black;
+    overflow: hidden;
+    inset: 0rem;
+    z-index: -2;
+}
+
+.topdisplay {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    inset: 0rem;
+    z-index: -2;
+    background-color: white;
+}
+
+.topleft {
+    background-color: rgb(38, 38, 38);
+    position: absolute;
+    width: 50%;
+    aspect-ratio: 16/9;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    transform: skewY(-15deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topright {
+    background-color: rgb(30, 30, 30);
+    position: absolute;
+    width: 50%;
+    aspect-ratio: 16/9;
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+    transform: skewY(15deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    background-color: rgb(21, 21, 21);
+    position: absolute;
+    width: 100%;
+    top: 23%;
+    aspect-ratio: 16/9;
+    bottom: 0%;
+    z-index: 0;
+    transform: rotateX(45deg);
+    display: flex;
+    justify-content: center;
+}
+.prfenvibg{
+    position: absolute;
+    z-index: -1;
+    width: 40%;
+    height: 85%;
+    bottom: 60%;
+    left: 30%;
+    transition: all 3s;
+    animation: appear 0.3s ease 4.5s 1 forwards;
+}
+@keyframes appear {
+    100%{
+        z-index: 3;
+    }
+}
+.cmpntnt{
+    margin-top: 59%;
+    height: 100%;
+    width: 100%;
+}
+.gltfEnvi{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    background-color: black;
+    z-index: 2;
+    bottom: 40%;
+    left: 40%;
+}
+
+.innerdivone {
+    height: 50%;
+    width: 5%;
+    background-color: white;
+    filter: brightness(300%);
+    margin: 3%;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 0px 10px lightgray;
+}
+
+#innercrdone {
+    animation: one 7s 1 forwards;
+}
+
+#innercrdtwo {
+    animation: two 6s 1 forwards;
+}
+
+#innercrdthree {
+    animation: three 5s 1 forwards;
+}
+
+#innercrdfour {
+    animation: four 4s 1 forwards;
+}
+
+#innercrdfive {
+    animation: five 3s 1 forwards;
+}
+
+#innercrdsix {
+    animation: six 2s 1 forwards;
+}
+
+#innercrdseven {
+    animation: seven 1s 1 forwards;
+
+}
+
+#innercrdrghtone {
+    animation: one 7s 1 forwards;
+}
+
+#innercrdrghttwo {
+    animation: two 6s 1 forwards;
+}
+
+#innercrdrghtthree {
+    animation: three 5s 1 forwards;
+}
+
+#innercrdrghtfour {
+    animation: four 4s 1 forwards;
+}
+
+#innercrdrghtfive {
+    animation: five 3s 1 forwards;
+}
+
+#innercrdrghtsix {
+    animation: six 2s 1 forwards;
+}
+
+#innercrdrghtseven {
+    animation: seven 1s 1 forwards;
+}
+
+@keyframes one {
+    to {
+        transform: translateZ(3000px);
+    }
+
+    from {
+        transform: translateX(-250%);
+    }
+}
+
+@keyframes two {
+    to {
+        transform: translateZ(3000px);
+    }
+
+    from {
+        transform: translateX(-450%);
+    }
+}
+
+@keyframes three {
+    to {
+        transform: translateZ(3000px);
+    }
+
+    from {
+        transform: translateX(-650%);
+    }
+}
+
+@keyframes four {
+    from {
+        transform: translateX(-850%);
+    }
+}
+
+@keyframes five {
+    to {
+        transform: translateZ(3000px);
+    }
+
+    from {
+        transform: translateX(-1050%);
+    }
+}
+
+@keyframes six {
+    to {
+        transform: translateZ(3000px);
+    }
+
+    from {
+        transform: translateX(-1250%);
+    }
+}
+
+@keyframes seven {
+    to {
+        transform: translateZ(3000px);
+    }
+
+    from {
+        transform: translateX(-1450%);
+    }
+}
+
+.bttminnerdivone {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    filter: brightness(100%);
+    margin: 5% 0 0;
+    width: 40%;
+    height: 50%;
+    transform: rotate(21deg) skew(-30deg) skewX(-27deg);
+    animation: btminrone 3s 1 forwards;
+}
+
+.btnininnerdiv {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    filter: brightness(100%);
+    animation: btminrtwo 4s 1 forwards;
+    margin: 10% 9% 0 0;
+    width: 60%;
+    height: 65%;
+}
+
+.mddleinnerdivfrbtm {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    filter: brightness(300%);
+    animation: btminrthree 5s 2s 1 forwards;
+    margin: 10% 9% 0 0;
+    width: 60%;
+    height: 65%;
+}
+
+@keyframes btminrone {
+    100% {
+        box-shadow: 20px 20px 30px black;
+    }
+}
+
+@keyframes btminrtwo {
+    100% {
+        box-shadow: 20px 20px 30px black;
+        /* transform: translateZ(100px); */
+    }
+}
+
+@keyframes btminrthree {
+    100% {
+        box-shadow: 20px 20px 30px black;
+        /* transform: translateZ(100px); */
+    }
+}
+
+.headprf h1 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 20px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(38, 38, 38);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(166deg, rgb(38, 38, 38) 15%, white 10%);
+}
+
+.headprf h2 {
+    position: absolute;
+    text-transform: uppercase;
+    top: -1%;
+    left: 15.5%;
+    font-size: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(38, 38, 38);
+    color: white;
+    font-weight: 800;
+    display: inline;
+    animation: type 3s steps(18) 1 forwards;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+        border-right: 2px solid white;
+    }
+    50%{
+        border-right: 1px solid white;
+    }
+
+    100% {
+        width: 18ch;
+        border-right: 0px solid white;
+    }
+}
+
+.headprf h4 {
+    position: absolute;
+    top: -4%;
+    right: 4%;
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(38, 38, 38);
+    background-image: linear-gradient(-166deg, rgb(30, 30, 30) 47.5%, white 15%);
+    font-weight: 800;
+}
+
+.headprf h3 {
+    font-size: 30px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 6.3%;
+    right: 1%;
+    color: rgb(30, 30, 30);
+    transition: all 7s;
+}
+
+.animationsttng:hover {
+    animation: rottatesttng 7s ease infinite forwards;
+    cursor: pointer;
+}
+
+@keyframes rottatesttng {
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+.settngoptn {
+    position: absolute;
+    right: 0%;
+    top: 15%;
+    background-image: url(listbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(100%);
+    width: 20%;
+    animation: animationInLst 0.5s ease forwards;
+    overflow: hidden;
+}
+
+@keyframes animationInLst {
+    from {
+        transform: translateX(100%);
+    }
+}
+
+.settngoptn li {
+    display: flex;
+    list-style-type: none;
+    font-size: 22px;
+    color: rgb(38, 38, 38);
+    text-shadow: 0px 0px 1px black,
+        0px 0px 2px rgb(38, 38, 38),
+        0px 0px 3px grey;
+    padding: 10px 45px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.animationsttngactive {
+    transform: rotate(29deg);
+    transition: all 0.3s;
+}
+
+#lstone {
+    animation: lstanione 0.1s ease 1 forwards;
+}
+
+#lsttwo {
+    animation: lstanitwo 0.3s ease 1 forwards;
+}
+
+#lstthree {
+    animation: lstanithree 0.6s ease 1 forwards;
+}
+
+#lstfour {
+    animation: lstanifour 0.9s ease 1 forwards;
+}
+
+#lstfive {
+    animation: lstanifive 1.2s ease 1 forwards;
+}
+
+#lstsix {
+    animation: lstanisix 1.5s ease 1 forwards;
+}
+
+#lstseven {
+    animation: lstaniseven 1.8s ease 1 forwards;
+}
+
+#lsteight {
+    animation: lstanieight 2.1s ease 1 forwards;
+}
+
+@keyframes lstanione {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes lstanitwo {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes lstanithree {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes lstanifour {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes lstanifive {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes lstanisix {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes lstaniseven {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes lstanieight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+.usrprfl{
+    position: relative;
+    width: 32.5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    padding-bottom: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 200px rgb(21, 21, 21);
+    border-radius: 9px;
+}
+.usrprflimg{
+    position: absolute;
+    top: -13%;
+    left: 36%;
+    background-color: grey;
+    box-shadow: 5px 5px 20px black;
+    width: 28%;
+    height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.usrprflimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.edtclsbtnprf{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+}
+.edtbtnprfl{
+    margin:0px 10px 0px 0px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.clsbtnprfl{
+    font-size: 18px;
+    cursor: pointer;
+}
+.userdetailss{
+    width: 80%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.userdetailss h1{
+    margin: 0px;
+    text-align: center;
+}
+.userdetailss p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.frgtpss{
+    position: absolute;
+    bottom: 2%;
+    right: 6%;
+    color: skyblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+#fieldone{
+    border-bottom: 2px solid black;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-left: 0px solid black;
+    background-image: url(edit.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right;
+    cursor: pointer;
+}
+#reason{
+    border-bottom: 2px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-top: 0px solid black;
+}
+#bttns{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 10%;
+}
+.bbtn{
+    margin-right: 14px;
+    padding: 3px 10px;
+    border: 2px outset rgb(38, 38, 38);
+    border-radius: 3px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    transition: all 0.2s;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.bbtn:hover{
+    background-color: white;
+    color: rgb(38, 38, 38);
+    box-shadow: 0px 0px 10px rgb(21, 21, 21);
+}
+.bbtn:active{
+    border: 2px inset rgb(38, 38, 38);
+    border-radius: 3px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    box-shadow: 0px 0px 0px black;
+}
+.rdiobtn{
+    transition: all 0.5s;
+}
+.rdiobtn:hover{
+    text-shadow: 0px 0px 1px rgb(38, 38, 38);
+}
+.rdiobtn:active{
+    text-shadow: 0px 0px 1px rgb(38, 38, 38);
+}
+.dltcnfirmbx{
+    width: 35%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.424);
+    box-shadow: 0px 0px 50px black;
+    position: absolute;
+    top: 25%;
+    left: 32.5%;
+}
+.dltcnfirmbx h1{
+    margin-left: 5%;
+}
+.bttnsgnup{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 70%;
+    right: 4%;
+}
+.dltcnfirmbx button{
+    padding: 8px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.dltbtnsgn{
+    color: white;
+    background-color: rgb(21, 21, 21);
+    border: 2px solid rgb(21, 21, 21);
+}
+.cnclbtnsgn{
+    color: rgb(21, 21, 21);
+    background-color: transparent;
+    border: 2px solid rgb(21, 21, 21);
+}
+.dltbtnsgn:hover{
+    box-shadow: 0px 10px 10px rgba(21, 21, 21, 0.441);
+    font-weight: 700;
+}
+.cnclbtnsgn:hover{
+    box-shadow: 0px 10px 10px rgba(21, 21, 21, 0.441);
+    font-weight: 700;
+}

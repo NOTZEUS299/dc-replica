@@ -1,0 +1,11 @@
+Model Information:
+* title:	Discord 3d Logo
+* source:	https://sketchfab.com/3d-models/discord-3d-logo-59bf15211e7b416f925c696d6db06cd2
+* author:	Ragat Vdoo Kaf (https://sketchfab.com/mae_bul_01)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Discord 3d Logo" (https://sketchfab.com/3d-models/discord-3d-logo-59bf15211e7b416f925c696d6db06cd2) by Ragat Vdoo Kaf (https://sketchfab.com/mae_bul_01) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

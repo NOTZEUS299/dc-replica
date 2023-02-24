@@ -1,0 +1,94 @@
+.spprtnv{
+    display: flex;
+    justify-content: center;
+}
+.sppnvrt li{
+    color: #729398;
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+.spplgrt {
+    cursor: pointer;
+    display: inline-flex;
+    margin-right: 575px;
+    margin-left: 70px;
+    text-shadow: 2px 2px 10px white;
+}
+#spplgonert {
+    font-size: 33px;
+    margin-top: 12px;
+}
+.spphdhonert {
+    text-decoration: none;
+}
+#sppheadonert h1{
+    font-weight: 900;
+    font-size: 22px;
+    margin-left: 6px;
+}
+.spprtnvlst{
+    font-size: 14.5px;
+}
+.spprtnvlst:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hlpcntr{
+    margin-top: 20px;
+    background-image: url(imgone.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 90px 0px;
+}
+.spprtsrchhd{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+.spprtsrchbr{
+    display: flex;
+    justify-content: center;
+}
+.spprtsrchbr input{
+    border: 1px solid white;
+    border-radius: 9999px;
+    width: 540px;
+    height: 30px;
+    display: inline;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 2% 50%;
+    padding: 5px 35px;
+    cursor: pointer;
+}
+.hlpngblsht{
+    text-align: center;
+    margin-top: 80px;
+}
+.hlpngblsht h1{
+    font-size: 26px;
+    font-weight: 400;
+    color: #4f545c;
+}
+.hlpngblsht p{
+    width: 600px;    
+    font-size: 18px;
+    font-weight: 400;
+    color: #4f545c;
+    margin:20px auto 75px;
+}
+.ntnghr{
+    color: #729398;
+    text-decoration: none;
+    text-shadow: 1px 1px 20px #4f545c;
+}
+.ntnghr:hover{
+    text-decoration: underline;
+    cursor: help;
+}

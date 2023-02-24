@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+}
+.lgnpgbgimg{
+    background-image: url(bgimagone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: bgimg 120s linear infinite;
+}
+@keyframes bgimg {
+    0%{
+        background-position: top;
+    }
+    100%{
+        background-position: bottom;
+    }
+}
+.lgnpgbx{
+    width: 70%;
+    color: white;
+    background-color: #1a1210;
+    padding: 7.2%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.lgnbx{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hdfrlgn h1{
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+.hdfrlgn p{
+    font-size: 15px;
+    margin:0px 0px 20px 0px;
+}
+.emlfrlgn label{
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.emlfrlgn input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding:10px 80px 10px 0;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 15px;
+}
+.emlfrlgn input:focus{
+    outline: 0;
+}
+.pssfrlgn label{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.pssfrlgn input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding:10px 80px 10px 0;
+    color: white;
+    font-size: 15px;
+}
+.pssfrlgn input:focus{
+    outline: 0;
+}
+.sgupinlgn{
+    margin-top: 10px;
+}
+#sgnin{
+    color: white;
+    cursor: help;
+}
+#sgnin:hover {
+    color: #5865f2;
+}
+.gthmpg{
+    color: white;
+    text-decoration: none;
+}
+.bttnsfrlgn{
+    display: flex;
+}
+.sideimg img{
+    filter: sepia(300%);
+}
+.bttnsfrlgn button{
+    padding: 5px 25px;
+    border: 2px outset white;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 21%;
+    margin-right: 5px;
+}

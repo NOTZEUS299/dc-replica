@@ -1,0 +1,77 @@
+.jobprtone{
+    background-color: white;
+    color: black;
+}
+.jbnvbr {
+    display: flex;
+    justify-content: center;
+    padding: 4px 0px 0px;
+}
+.jbmnlg {
+    display: inline-flex;
+    margin-right: 210px;
+    color: black;
+}
+#jblgone {
+    font-size: 33px;
+    margin-top: 12px;
+}
+.jbhdhone {
+    text-decoration: none;
+}
+#jbheadone h1{
+    font-weight: 900;
+    font-size: 22px;
+    margin-left: 6px;
+}
+.jbnvlist {
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    color: black;
+    font-weight: 500;
+}
+.jbnvlist:hover{
+    text-decoration: underline;
+}
+.jbnvlst li{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 20px;
+}
+.jblgnbtn{
+    text-decoration: none;
+    color: white;
+}
+.jblgn button {
+    border: 1px solid #5865f2;
+    border-radius: 9999px;
+    background-color: #5865f2;
+    font-weight: 100;
+    padding: 12px 15px;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 244px;
+    margin-right: 26px;
+    transition: 0.3s;
+}
+.jblgn:hover button{
+    cursor: pointer;
+}
+.jbcntntbgclr{
+    background-color: #f6f6f6;
+    padding: 85px 0px;
+}
+.jbcntnt{
+    color: #333333;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jbfcntntone h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.jbfcntntone p{
+    margin-right: 50px;
+}

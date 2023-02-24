@@ -1,0 +1,227 @@
+.sftymn{
+    background-color: #5865f2;
+}
+.stfyctnt{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.sftycntnthdn h1{
+    color: white;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    font-family:    'Candal', sans-serif;
+    margin: 0px 0px;
+}
+.sftysbcntnt{
+    display: flex;
+}
+.sftylftcntnt{
+    margin-top: 60px;
+}
+.sftylftcntnt p{
+    width: 560px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    line-height: 25px;
+    font-family:    'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+.sftyrcntnt img{
+    margin-left: 25px;
+}
+.tbhdwtlstdc{
+    display: none;
+}
+@media (max-width:912px){
+    *{
+        box-sizing: border-box;
+    }
+    .sfttbdrplist{
+        margin-top: 12px;
+    }
+    .tbhdwtlstdc{
+        display: block;
+    }
+    .tbhddc{
+        padding: 10px 0px 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        z-index: 0;
+    }
+    .tbmnlg {
+        display: inline-flex;
+        margin-left: 20px;
+        color: white;
+    }
+    #tblgone {
+        font-size: 33px;
+        margin-top: 12px;
+    }
+    .tbhdhone {
+        text-decoration: none;
+    }
+    #tbheadone h1{
+        font-weight: 900;
+        font-size: 22px;
+        margin-left: 6px;
+    }
+    .ltsee{
+        display: flex;
+        justify-content: right;
+        margin-right: 20px;
+    }
+    .tbltlgnbtn{
+        margin-top: 20px;
+    }
+    .tblgnbtn{
+        text-decoration: none;
+        color: black;
+        background-color: #fff;
+        border-radius: 999px;
+        padding: 10px 15px;
+    }
+    .tbdrplist{
+        margin-top: 10px;
+    }
+    .tbdrplisticn{
+        color: white;
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    #sfttbnvlst{
+        list-style-type: none;
+        background-color: #eb459f;
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    .sfttbnvlist{
+        display: block;
+        color: rgb(252, 220, 220);
+        font-size: 40px;
+        text-decoration: none;
+        margin: 5px 0px 5px 0px;
+        padding-left: 20px;
+    }   
+    .sfttbnvlist:hover {
+        background-color: #5865f2;
+        color: white;
+    }
+    .stfyctnt{
+        padding-top: 0px;
+        margin-top: 80px;
+    }
+    .sftysbcntnt{
+        display: block;
+    }
+    .sftycntnthdn h1{
+        margin-left: 30px;
+    }
+    .sftylftcntnt p{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 30px;
+    }
+    .sftyrcntnt{
+        padding: 0px;
+        margin: 0px;
+    }
+    .sftymn{
+        padding-bottom: 350px;
+    }
+}
+@media (max-width:600px){
+    *{
+        box-sizing: border-box;
+    }
+    .tbhdwtlstdc{
+        display: block;
+    }
+    .tbhddc{
+        padding: 10px 0px 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        z-index: 0;
+    }
+    .tbmnlg {
+        display: inline-flex;   
+        color: white;
+    }
+    #tblgone {
+        font-size: 33px;
+        margin-top: 12px;
+    }
+    .tbhdhone {
+        text-decoration: none;
+    }
+    #tbheadone h1{
+        font-weight: 900;
+        font-size: 22zpx;
+    }
+    .tbltlgnbtn{
+        margin-top: 20px;
+    }
+    .tblgnbtn{
+        text-decoration: none;
+        color: black;
+        background-color: #fff;
+        border-radius: 999px;
+        padding: 10px 15px;
+    }
+    .tbdrplist{
+        margin-top: 10px;
+    }
+    .tbdrplisticn{
+        color: white;
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    #sfttbnvlst{
+        list-style-type: none;
+        background-color: #eb459f;
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    .sfttbnvlist{
+        display: block;
+        color: rgb(252, 220, 220);
+        font-size: 40px;
+        text-decoration: none;
+        margin: 5px 0px 5px 0px;
+        padding-left: 20px;
+    }   
+    .sfttbnvlist:hover {
+        background-color: #5865f2;
+        color: white;
+    }
+    .stfyctnt{
+        padding-top: 0px;
+        margin-top: 80px;
+    }
+    .sftysbcntnt{
+        display: block;
+    }
+    .sftycntnthdn h1{
+        font-size: 20px;
+    }
+    .sftylftcntnt p{
+        font-size: 10px;
+        font-weight: 500;
+        margin-left: 30px;
+    }
+    .sftyrcntnt{
+        padding: 0px;
+        margin: 0px;
+    }
+    .sftyrcntnt img{
+        width: 10px;
+    }
+    .sftymn{
+        padding-bottom: 350px;
+    }
+}
